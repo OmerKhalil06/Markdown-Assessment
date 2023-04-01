@@ -59,7 +59,7 @@ dog1=Dog(Josh, 3)
 print(dog1.age) #returns 3 
 ```
 
-###Encapsulation
+### Encapsulation
 ```python
 class Account:
   def __init__(self, username, password):
@@ -75,7 +75,7 @@ class Account:
   account1.user = "HAHA I CHANGED YOUR USERNAME" #changes the original value which could ruin code
 ```
 
-###Setting and Getting 
+### Setting and Getting 
 ```python
 def setMethod(self, variable): #define the setter with the argument replacemnt 
   self.__encap=variable: #setting the new argument 
@@ -105,3 +105,5 @@ makeSound(d_obj)
 #returns "Bark"
 ```
 
+### __repr__ and __str__ functions 
+- add later 
