@@ -35,6 +35,19 @@ Types:
 * A Method that can be used in many classes and object depends on the parameters
   * Different classes (not-inhereited) can have the same named method 
 
+### Inheritence 
+* Object or class is based on another object or class 
+* Types:
+  1. Single: Subclass inherits from a super/parent class 
+  2. Multiple: Subclass inherits features of multiple parent classes 
+  3. Multilevel: Subclass inherits from another sub class 
+* The child class will not need __init__ if the attrvites are the same
+* Child only reinstates parent methods if they are overrided 
+* __looked down upon in programming as if one clas fails they both fail__
+
+### Iterable Objects 
+* Access individual values with a loop (EX. Strings and Lists)
+*  
 --- 
 ## Coding 
 ### Creating a class 
@@ -107,3 +120,24 @@ makeSound(d_obj)
 
 ### __repr__ and __str__ functions 
 - add later 
+
+
+### Inheritence 
+
+```python 
+#Single inheritence example
+class Person:
+ def __init__(self, name):
+  self.__name = name 
+  
+ def getName(self):
+   return self.__name
+ 
+class Student(Person):
+ def __init__(self, name, num):
+  Person.__init__(self, name)
+   self.__sNum = num
+  
+ def getStudentName(self):
+  return("%s: %s" % (self.__sNum,self.getName()))
+```
