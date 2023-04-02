@@ -24,14 +24,14 @@
 * Why? Data protection and restricting methods to be called 
 * Isnt really possible in python, but can be done by using __ prefix 
 
-###Overrides 
+### Overrides 
 Types:
-* Overloading: Two methods in the same class with same snam ebut different parameters 
+* Overloading: Two methods in the same class with same name but different parameters 
   * No overloading in python 
 * Overriding: Two methods with the same name and same parameters 
   * Different classes (one in parent, one in child) 
   
-###Polymorphism
+### Polymorphism
 * A Method that can be used in many classes and object depends on the parameters
   * Different classes (not-inhereited) can have the same named method 
 
