@@ -118,9 +118,6 @@ makeSound(d_obj)
 #returns "Bark"
 ```
 
-### __repr__ and __str__ functions 
-- add later 
-
 
 ### Inheritence 
 
